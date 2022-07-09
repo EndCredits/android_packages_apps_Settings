@@ -122,6 +122,18 @@
     <string name="laboratory_skiavk_title">Use skia vulkan for hwui rendering</string>
     <string name="laboratory_skiavk_summary">This may offer better performance but worse compatibility especially with outdated applications.</string>
 
+    <!-- Laboratory - Strict standby -->
+    <string name="laboratory_strict_standby_policy_title">Strict standby policy</string>
+    <string name="laboratory_strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+
+    <!-- Laboratory - Force background freezer -->
+    <string name="laboratory_force_background_freezer_title">Background tasks freezer</string>
+    <string name="laboratory_force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
+
+    <!-- Laboratory - Allow WebView implementation selection -->
+    <string name="laboratory_allow_webview_selection_title">Allow WebView implementation selection</string>
+    <string name="laboratory_allow_webview_selection_summary">Allow users to choose a WebView implementation. Choosing an implementation will result in different functionality, but may lead to compatibility or security issues. WebView must be installed in all available users. After changing this toggle, you have to reboot for the change to take effect.</string>
+
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
@@ -235,5 +247,10 @@
     <string name="reset_auto_brightness_adjustment_title">Reset preference</string>
     <string name="reset_auto_brightness_adjustment_summary">Let the system forget your brightness preference and reset it to the default one</string>
     <string name="reset_auto_brightness_adjustment_done">Auto brightness preference has been reset</string>
+
+    <!-- About phone settings screen, setting option name to see fonts attributions -->
+    <string name="fonts_attributions">Fonts</string>
+    <!-- About phone settings screen, setting option name to see fonts attributions values -->
+    <string name="fonts_attributions_values">OPlus Sans 2.0 fonts is copyrighted by Guangdong OPPO Mobile Telecommunications Corp., Ltd. And licensed to KaleidoscopeOS for use \"AS IS\", free and in a legitimate form.</string>
 
 </resources>
